@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/open-eio/rctu-power/master/rctu-power.png">
 
-Microcontroller board for controlling power input to embedded Linux system.
+Microcontroller board for controlling power output to an embedded Linux system.
 
 The board has several options for voltage input (VIN), and several options for voltage output (VOUT).  The on-board microcontroller controls mosfets which switch the VIN -- VOUT connections.  
 
