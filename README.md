@@ -1,7 +1,6 @@
 # rctu-power
 
-
-### Description
+<img href="https://raw.githubusercontent.com/open-eio/rctu-power/master/rctu-power.png">
 
 Microcontroller board for controlling power input to embedded Linux system.
 
