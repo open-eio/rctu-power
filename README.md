@@ -6,14 +6,11 @@ Microcontroller board for controlling power output to an embedded Linux system.
 
 The board has several options for voltage input (VIN), and several options for voltage output (VOUT).  The on-board microcontroller controls mosfets which switch the VIN -- VOUT connections.  
 
-The microcontroller can be programmed to switch in any arbitrary sequence, and sleep in between actions.  There is also an on-board set of physical switches so that, if desired, the user can dial in a particular sleep / wake timing sequence without having to reprogram the board.
+The on-board microcontroller can be programmed to switch in any arbitrary sequence, and sleep in between actions.  There is also an on-board set of physical switches so that, if desired, the user can dial in a particular sleep / wake timing sequence without having to otherwise reprogram the board.
 
 ### Typical use-case
 
-A typical application of the board:
-
-
-The board is programmed via the uUSB cable and a laptop to do the following, repeated sequence:
+The board is initially programmed via the uUSB cable (using the Arduino IDE or equivalent). A typical program might perform the following, repeated sequence:
 
 - Turn VOUT off
 - Place the on-board microcontroller into sleep mode for X minutes
