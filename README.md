@@ -14,20 +14,28 @@ The board is initially programmed via the uUSB cable (using the Arduino IDE or e
 
 - Turn VOUT off
 - Place the on-board microcontroller into sleep mode for X minutes
-- Wake from sleep mode and Turn VOUT on
+- Wake from sleep mode and turn VOUT on
 - Wait for X minutes, or until receive a 'sleep / done' signal from the device being powered by VOUT
 
 ### Connections
 
-The board has three options for power input:
+Three options for power input:
 
 - Screw terminal
 - JST connector (to e.g. battery or UBEC)
 - USB-micro (which also doubles as microcontroller programmer)
 
-The board has two options for power output:
+Two options for power output:
 
 - USB-A
 - Screw terminal
 
+A female or male header may be soldered on to allow for the following connections:
+
+- SDA (I2C)
+- SCL (I2c)
+- RX (UART)
+- TX (UART)
+- 5V
+- GND
 
